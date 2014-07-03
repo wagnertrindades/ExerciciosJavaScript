@@ -1,18 +1,4 @@
-<html>
-	<head>
-		<meta charset='utf-8'>
-		<title>Exercicio Media Hard</title>
-	</head>
-	<body>
-		<h1>Exercicio Media Hard</h1>
-		<form>
-			<label>
-				Digite quantas provas foram feitas:
-				<input id="provas">
-			</label>
-			<button id="ok">Ok</button>
-		</form>
-		<script>
+
 			var imprime= function(texto){
 				document.write(texto);
 				document.write("<br>");
@@ -47,7 +33,3 @@
 			};
 			var botao=document.getElementById("ok");
 			botao.onclick= criaInputs;
-
-		</script>
-	</body>
-</html>
