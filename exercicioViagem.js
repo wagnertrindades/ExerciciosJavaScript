@@ -1,27 +1,4 @@
-<html>
-	<meta charset='utf-8'>
-	<h1>
-		Exercicio 12 Forúm
-	</h1>
-	<body>
-		<a href="http://forum.imasters.com.br/topic/465210-exercicios-para-iniciantes/" title="Clique para acessar o site do fórum" target='_blank'>Link do Forúm</a>
-		<br><hr><br>
-		<form>
-			<label>Quantos Km seu carro faz por litro?</label>
-				<input placeholder="Digite quantos km o carro faz por litro..." id="kmLitro">
-			<br>
-			<label>Quanto tempo foi gasto de viagem?</label>
-				<input placeholder="Digite quanto tempo durou a viagem..." id="tempo">
-			<br>
-			<label>Quanto foi a velocidade média na viagem?</label>
-				<input placeholder="Digite quanto foi a velocidade media de viagem..." id="velocidade">
-			<br>
-			<label>Quanto foi o valor da gasolina?</label>
-				<input placeholder="Digite quanto foi a gasolina..." id="gasolina">
-			<br>
-			<button id="calcule">Calcular</button>
-		</form>
-		<script>
+
 			var imprime= function(texto) {
 				document.write(texto);
 				document.write("<br>");
@@ -53,7 +30,3 @@
 			};
 			var botao= document.getElementById("calcule");
 			botao.onclick= exibeNaTela;			
-			
-	</script>
-	</body>
-</html>
