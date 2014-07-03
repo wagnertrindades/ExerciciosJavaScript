@@ -1,30 +1,4 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset='utf-8'>
-		<title>Exercicio Impostos</title>	
-	</head>
-	<body>
-		<form>
-			<label>
-				Informe qual é o produto:
-				<input id="produto">
-			</label>
-			<br>
-			<label>
-				Valor do produto:
-				<input id="valor">
-			</label>
-			<br>
-			<label>
-				Qual a porcentagem de imposto pago:
-				<input id="imposto">
-				%
-			</label>
-			<br>
-			<button id="calc">Calcular Imposto</button>
-		</form>
-		<script>
+
 			var imprime= function(texto){
 				document.write(texto);
 				document.write("<br>");
@@ -43,6 +17,3 @@
 			};
 			var botao= document.getElementById("calc");
 			botao.onclick= mostraImposto;
-		</script>
-	</body>
-</html>
