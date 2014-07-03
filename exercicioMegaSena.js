@@ -1,4 +1,4 @@
-<script>
+
 			var imprime= function(texto){
 				document.write(texto);
 				document.write("<br>");
@@ -64,4 +64,3 @@
 			};
 			var botao= document.getElementById("ok");
 			botao.onclick= geraInputs;
-</script>
