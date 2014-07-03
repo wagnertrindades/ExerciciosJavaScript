@@ -1,25 +1,4 @@
-<html>
-	<head>
-		<meta charset='utf-8'>
-		<title>Exercicio Calculadora</title>
-	</head>
-	<body>
-		<h1>Calculadora</h1>
-		<form>
-			<label>
-				Primeiro numero
-				<input id="numero1">
-			</label>
-			<label>
-				Segundo numero
-				<input id="numero2">
-			</label>
-			<button id="soma">+</button>
-			<button id="subtracao">-</button>
-			<button id="divisao">/</button>
-			<button id="multiplicacao">*</button>
-		</form>
-		<script>
+
 			var imprime= function(texto){
 				document.write(texto);
 				document.write("<br>");
@@ -60,6 +39,3 @@
 			botaoDivisao.onclick= calculaDivisao;
 			var botaoMultiplicacao= document.getElementById("multiplicacao");
 			botaoMultiplicacao.onclick= calculaMultiplicacao;
-		</script>
-	</body>
-</html>
