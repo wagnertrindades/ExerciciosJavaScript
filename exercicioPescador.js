@@ -1,4 +1,4 @@
-var imprime= function(texto){
+			var imprime= function(texto){
 				document.write(texto);
 				document.write("<br>");
 			};
