@@ -23,11 +23,6 @@ function imprimeNome(pacienteTr){
 			}
 		}
 	};
-
-	var imc = pacienteAtual.pegaImc();
-
-	var tdImc = pacienteTr.getElementsByClassName("info-imc")[0];
-	tdImc.textContent = imc;
-	
+		
 	console.log(pacienteAtual.nome);
 }
