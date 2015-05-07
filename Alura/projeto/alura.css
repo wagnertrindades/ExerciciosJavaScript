@@ -63,6 +63,14 @@ th{
 	background-color: #EEE;
 }
 
+form p{
+	padding: 10px;
+	margin: 20px 0;
+	background: rgba(242, 16, 16, 0.37);
+	border-bottom: 3px solid;
+	border-color: #9B231D; 
+}
+
 input[type=text]{
 	border: 1px solid #ccc;
 	padding: .7em;
